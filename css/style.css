@@ -304,11 +304,19 @@ body {
   color: #fff;
 }
 
-@media screen and (max-width: 747px) {
+@media screen and (max-width: 330px) {
   .header {
     padding-top: 20px;
     padding-bottom: 138px;
     background-image: url(../images/mob-bg.jpg);
+  }
+}
+
+@media screen and (max-width: 747px) {
+  .header {
+    padding-top: 20px;
+    padding-bottom: 138px;
+    background-image: url(../images/tab-bg.jpg);
   }
 
   .navigation {
@@ -348,7 +356,7 @@ body {
   .header {
     padding-top: 38px;
     padding-bottom: 234px;
-    background-image: url(../images/tab-bg.jpg);
+    background-image: url(../images/desc-bg.jpg);
   }
 
   .navigation {
@@ -428,9 +436,9 @@ body {
 }
 
 @media screen and (min-width: 940px) {
-  .header {
+  /* .header {
     background-image: url(../images/desc-bg.jpg);
-  }
+  } */
 
   .partners {
     padding-bottom: 73px;
