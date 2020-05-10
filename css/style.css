@@ -304,14 +304,6 @@ body {
   color: #fff;
 }
 
-@media screen and (max-width: 330px) {
-  .header {
-    padding-top: 20px;
-    padding-bottom: 138px;
-    background-image: url(../images/mob-bg.jpg);
-  }
-}
-
 @media screen and (max-width: 747px) {
   .header {
     padding-top: 20px;
@@ -344,6 +336,12 @@ body {
 
   .partners__item:not(:last-child) {
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .header {
+    background-image: url(../images/mob-bg.jpg);
   }
 }
 
@@ -436,10 +434,6 @@ body {
 }
 
 @media screen and (min-width: 940px) {
-  /* .header {
-    background-image: url(../images/desc-bg.jpg);
-  } */
-
   .partners {
     padding-bottom: 73px;
   }
