@@ -347,6 +347,7 @@ body {
 
 @media screen and (min-width: 748px) {
   .container {
+    max-width: 748px;
     padding-left: 40px;
     padding-right: 40px;
   }
@@ -419,6 +420,10 @@ body {
 }
 
 @media screen and (min-width: 748px) and (max-width: 939px) {
+  .container {
+    max-width: 748px;
+  }
+
   .partners {
     padding-bottom: 40px;
   }
@@ -434,6 +439,9 @@ body {
 }
 
 @media screen and (min-width: 940px) {
+  .container {
+    max-width: 940px;
+  }
   .partners {
     padding-bottom: 73px;
   }
